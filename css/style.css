@@ -25,16 +25,18 @@
     /* --------------------body -----------------------*/
 
     .cuerpo-pagina{
-        background-color: rgb(157, 195, 253);
+        background:linear-gradient(50deg , red , blue);
+
     }
 
+        
+    .proyector {
+        
+    }
 
  /* -----------------------body -----------------------*/
 
 
-    /* .proyector {
-
-    } */
 
 
 
@@ -45,13 +47,35 @@
             width: 700px;
             margin:auto
            
-   }
+        }
         .imgcarrusel {
             height: 400px;
             width: 700px;
         }
+
+        .titulos {
+            text-align: center;
+        }
+
+        .parrafos{
+            text-align: center;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
  /*----------------------- main------------------------ */
 
 
+ /* ----------------footer -------------------*/
 
+        .footerindex{
+            background-color: tomato;
+            
+        }
+
+        .pfooter {
+            color: azure;
+        }
+
+
+/* ----------------footer -------------------*/
 
