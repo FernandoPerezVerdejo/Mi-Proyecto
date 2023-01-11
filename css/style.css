@@ -32,7 +32,7 @@
     /* --------------------body -----------------------*/
 
     .cuerpo-pagina{
-        background:linear-gradient(50deg , rgb(234, 234, 255),rgb(95, 95, 238) );
+        background:linear-gradient(45deg , rgb(234, 234, 255) 50%,rgb(95, 95, 238) 80%);
 
     }
 
@@ -73,6 +73,7 @@
 
         .titulos {
             text-align: center;
+            padding-top: 20px;
             margin-top: 5%;
             margin-bottom: 5%;
         }
