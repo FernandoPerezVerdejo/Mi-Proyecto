@@ -25,14 +25,14 @@
     /* --------------------body -----------------------*/
 
     .cuerpo-pagina{
-        background:linear-gradient(50deg , red , blue);
+        background:linear-gradient(50deg , rgb(234, 234, 255),rgb(95, 95, 238) );
 
     }
 
         
-    .proyector {
+    /* .proyector {
         
-    }
+    } */
 
  /* -----------------------body -----------------------*/
 
@@ -68,12 +68,20 @@
  /* ----------------footer -------------------*/
 
         .footerindex{
-            background-color: tomato;
-            
+            background-color: black;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: auto;
+            color: white;
+            margin: auto;
         }
 
         .pfooter {
             color: azure;
+            text-align: center;
+            height: 20px;
+            
         }
 
 
