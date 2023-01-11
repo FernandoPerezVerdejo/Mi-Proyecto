@@ -1,0 +1,48 @@
+    /* ------------------header --------------------*/
+
+    .navbar {
+        background-color:  #e3f2fd;
+    }
+
+    .container-fluid {
+        text-align: center;
+    }
+
+    .nav-link {
+        color: rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .navbar-brand{
+        font-size: 30px;
+    }
+
+  /*-------------------- header -----------------*/
+
+
+
+
+    /* --------------------body -----------------------*/
+
+    .cuerpo-pagina{
+        background-color: rgb(157, 195, 253);
+    }
+
+
+ /* -----------------------body -----------------------*/
+
+
+    .proyector {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+
+ /*----------------------- main------------------------ */
+
+ /*----------------------- main------------------------ */
+
+
+
+
