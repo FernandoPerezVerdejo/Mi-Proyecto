@@ -17,6 +17,13 @@
         font-size: 30px;
     }
 
+     .barranavegadora{        /*barra de navegacion fija */
+            position:fixed;
+            top: 0;
+            width: 100%;
+            z-index: 100;
+    }
+
   /*-------------------- header -----------------*/
 
 
@@ -42,16 +49,27 @@
 
  /*----------------------- main------------------------ */
 
+
+    /*------------- componentes del carrusel ----------- */
         .carrusel{
             height: 400px;
             width: 700px;
-            margin:auto
-           
+            margin:auto;
+         
         }
         .imgcarrusel {
             height: 400px;
             width: 700px;
         }
+        .carousel-inner{
+
+            border-radius: 15px;
+            height: 400px;
+            width: 700px;
+            margin:auto;
+        }
+
+    /*------------- componentes del carrusel ----------- */        
 
         .titulos {
             text-align: center;
@@ -79,6 +97,7 @@
             height: auto;
             color: white;
             margin: auto;
+            padding: 3px;
         }
 
         .pfooter {
