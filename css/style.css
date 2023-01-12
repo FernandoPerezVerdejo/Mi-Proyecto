@@ -24,9 +24,12 @@
             z-index: 100;
     }
 
+    #navbarNav{
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
 
     .radio{
-        padding-top: 5px;
         padding-left: 30px;
         text-align: center;
         
