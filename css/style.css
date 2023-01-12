@@ -128,7 +128,7 @@
 
 
                         .formulariologin{
-                            width: 40%;
+                            width: 30%;
                             height: 100%;
                             margin-left: auto;
                             margin-right: auto;
@@ -139,6 +139,13 @@
                             border-radius: 15px;
                             text-align: center;
                             padding:50px;                            
+                        }
+
+                        .botonlogin{
+                            padding-top: 5%;
+                            margin-left: 20%;
+                            margin-right: 30%;
+                            margin-bottom: 5%;
                         }
 
 

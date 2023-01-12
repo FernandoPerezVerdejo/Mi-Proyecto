@@ -49,19 +49,15 @@
              <main class="proyector">
                 <div>
                   <form class="formulariologin">
-                    <div class="row mb-3">
-                      <label for="inputEmail3" class="col-sm-2 col-form-label">Correo</label>
-                      <div class="col-sm-10">
-                        <input type="email" class="form-control" id="inputEmail3">
-                      </div>
+                    <div class="form-floating mb-3">
+                      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                      <label for="floatingInput">Correo</label>
                     </div>
-                    <div class="row mb-3">
-                      <label for="inputPassword3" class="col-sm-2 col-form-label">Contraseña</label>
-                      <div class="col-sm-10">
-                        <input type="password" class="form-control" id="inputPassword3">
-                      </div>
+                    <div class="form-floating">
+                      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                      <label for="floatingPassword">Contraseña</label>
                     </div>
-                    <ul>
+                    <ul class="botonlogin">
                       <a href="/pages/login.html" class="btn btn-primary">Log In</a>
                     </ul>
                   </form>
