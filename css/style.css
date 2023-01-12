@@ -30,7 +30,9 @@
     }
 
     .radio{
-        padding-left: 30px;
+        position: fixed;
+        top:5px;
+        right: 100px;
         text-align: center;
         
         
@@ -150,7 +152,8 @@
                             border-color: black;
                             border-radius: 15px;
                             text-align: center;
-                            padding:50px;                            
+                            padding:50px;
+                            background-color: red;                            
                         }
 
                         .botonlogin{
