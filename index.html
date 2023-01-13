@@ -12,13 +12,11 @@
 
 
   <body class="cuerpo-pagina">
-    
+
 
     <!-------------- header ------------------->
     <header>
       <div class="barranavegadora">
-        
-
         <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -53,92 +51,119 @@
               </div>
             </div>
           </nav>
-        </div>
-      </div>
+          <div class="menu-derecho-fijo">
 
-    </header>
+            <div class="boton-menu-derecha" type="button"
+              data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"><img src="/img/login.png"
+                height="80" width="80" /></div>
+            <div class="offcanvas offcanvas-end" tabindex="-1"
+              id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">User Info</h5>
+                <button type="button" class="btn-close"
+                  data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <img src="/img/login.png" alt="100px" sizes="100px" srcset="">
+                <p>Email</p>
+                <p>Dirección</p>
+                <p>Receta</p>
+                <p>Hora Médica</p>
 
-    <!-------------- header ------------------->
-
-
-    <!------------------- main  -------------->
-
-    <main class="proyector">
-
-      <h1 class="titulos">Titulo 1</h1>
-
-      <p class="parrafos">Lorem ipsum dolor sit, amet consectetur adipisicing
-        elit. Veniam
-        deserunt eaque beatae itaque in, illum esse consectetur suscipit
-        repudiandae velit quae ea? Ipsam officiis hic iure delectus dolor optio
-        non.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-        voluptatibus perferendis soluta at? Excepturi vitae cum facere id et
-        nesciunt maxime qui molestiae eum, nostrum numquam. Obcaecati maiores
-        alias nulla? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Voluptates labore necessitatibus nam dolores nostrum exercitationem nisi
-        deserunt quis in! Amet, inventore vel a qui cum magnam quis enim
-        pariatur labore?</p>
-
-      <!----------------- carrusel ----------------->
-      <div class="carrusel">
-        <div id="carouselExampleInterval" class="carousel slide"
-          data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="2000">
-              <img src="/img/medic1.jpg" class="imgcarrusel" alt="...">
+              </div>
             </div>
-            <div class="carousel-item" data-bs-interval="2000">
-              <img src="/img/medic2.jpeg" class="imgcarrusel" alt="...">
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-              <img src="/img/medic3.png" class="imgcarrusel" alt="...">
-            </div>
+
           </div>
-          <button class="carousel-control-prev" type="button"
-            data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button"
-            data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
-      </div>
-      <!----------------- carrusel ----------------->
 
-      <h1 class="titulos">Titulo2</h1>
+      </header>
 
-      <p class="parrafos">Lorem ipsum dolor sit, amet consectetur adipisicing
-        elit. Veniam
-        deserunt eaque beatae itaque in, illum esse consectetur suscipit
-        repudiandae velit quae ea? Ipsam officiis hic iure delectus dolor optio
-        non.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-        voluptatibus perferendis soluta at? Excepturi vitae cum facere id et
-        nesciunt maxime qui molestiae eum, nostrum numquam. Obcaecati maiores
-        alias nulla? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Voluptates labore necessitatibus nam dolores nostrum exercitationem nisi
-        deserunt quis in! Amet, inventore vel a qui cum magnam quis enim
-        pariatur labore?</p>
-
-    </main>
-
-    <!------------------- main  -------------->
+      <!-------------- header ------------------->
 
 
+      <!------------------- main  -------------->
+
+      <main class="proyector">
+
+        <h1 class="titulos">Titulo 1</h1>
+
+        <p class="parrafos">Lorem ipsum dolor sit, amet consectetur adipisicing
+          elit. Veniam
+          deserunt eaque beatae itaque in, illum esse consectetur suscipit
+          repudiandae velit quae ea? Ipsam officiis hic iure delectus dolor
+          optio
+          non.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+          voluptatibus perferendis soluta at? Excepturi vitae cum facere id et
+          nesciunt maxime qui molestiae eum, nostrum numquam. Obcaecati maiores
+          alias nulla? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Voluptates labore necessitatibus nam dolores nostrum exercitationem
+          nisi
+          deserunt quis in! Amet, inventore vel a qui cum magnam quis enim
+          pariatur labore?</p>
+
+        <!----------------- carrusel ----------------->
+        <div class="carrusel">
+          <div id="carouselExampleInterval" class="carousel slide"
+            data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="/img/medic1.jpg" class="imgcarrusel" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="/img/medic2.jpeg" class="imgcarrusel" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="/img/medic3.png" class="imgcarrusel" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button"
+              data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button"
+              data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <!----------------- carrusel ----------------->
+
+        <h1 class="titulos">Titulo2</h1>
+
+        <p class="parrafos">Lorem ipsum dolor sit, amet consectetur adipisicing
+          elit. Veniam
+          deserunt eaque beatae itaque in, illum esse consectetur suscipit
+          repudiandae velit quae ea? Ipsam officiis hic iure delectus dolor
+          optio
+          non.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+          voluptatibus perferendis soluta at? Excepturi vitae cum facere id et
+          nesciunt maxime qui molestiae eum, nostrum numquam. Obcaecati maiores
+          alias nulla? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Voluptates labore necessitatibus nam dolores nostrum exercitationem
+          nisi
+          deserunt quis in! Amet, inventore vel a qui cum magnam quis enim
+          pariatur labore?</p>
+
+      </main>
+
+      <!------------------- main  -------------->
 
 
 
-    <footer class="footerindex">
 
-      <p class="pfooter">Salud+ © Todos los Derechos Reservados</p>
 
-    </footer>
-    <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
-  </body>
+      <footer class="footerindex">
 
-</html>
-https://www.osakidetza.euskadi.eus/inicio/
+        <p class="pfooter">Salud+ © Todos los Derechos Reservados</p>
+
+      </footer>
+      <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+    </body>
+
+  </html>
+  https://www.osakidetza.euskadi.eus/inicio/

@@ -1,7 +1,7 @@
     /* ------------------header --------------------*/
 
     .navbar {
-        background-color:  #e3f2fd;
+        background-color: #e3f2fd;
     }
 
     .container-fluid {
@@ -13,160 +13,173 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    .navbar-brand{
+    .navbar-brand {
         font-size: 30px;
     }
 
-     .barranavegadora{        /*barra de navegacion fija */
-            position:fixed;
-            top: 0;
-            width: 100%;
-            z-index: 100;
+    .barranavegadora {
+        /*barra de navegacion fija */
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 100;
     }
 
-    #navbarNav{
+    #navbarNav {
         padding-top: 1%;
         padding-bottom: 1%;
     }
 
-    .radio{
+    .radio {
         position: fixed;
-        top:5px;
+        top: 5px;
         right: 100px;
         text-align: center;
-        
-        
+
+
     }
 
-  /*-------------------- header -----------------*/
+    /*-------------------- header -----------------*/
 
+                        /* menu derecha fijo */
+
+        .menu-derecho-fijo{
+            width: 80px;
+            height: 80px;
+            margin-top: 10%;
+            margin-left: auto;
+
+        }
+        .boton-menu-derecha{
+            background-color: rgba(239, 243, 238, 0.452);
+            border-radius: 25% 0 0 25%;
+            border: 1px solid azure;
+        }
 
 
 
     /* --------------------body -----------------------*/
 
-    .cuerpo-pagina{
-        background:linear-gradient(45deg , rgb(234, 234, 255) 50%,rgb(95, 95, 238) 80%);
+    .cuerpo-pagina {
+        background: linear-gradient(45deg, rgb(234, 234, 255) 50%, rgb(95, 95, 238) 80%);
 
     }
 
-        
+
     /* .proyector {
         
     } */
 
- /* -----------------------body -----------------------*/
+    /* -----------------------body -----------------------*/
 
 
 
 
 
- /*----------------------- main------------------------ */
+    /*----------------------- main------------------------ */
 
 
     /*------------- componentes del carrusel ----------- */
-        .carrusel{
-            height: 400px;
-            width: 700px;
-            margin:auto;
-         
-        }
-        .imgcarrusel {
-            height: 400px;
-            width: 700px;
-        }
-        .carousel-inner{
+    .carrusel {
+        height: 400px;
+        width: 700px;
+        margin: auto;
 
-            border-radius: 15px;
-            height: 400px;
-            width: 700px;
-            margin:auto;
-        }
+    }
 
-    /*------------- componentes del carrusel ----------- */        
+    .imgcarrusel {
+        height: 400px;
+        width: 700px;
+    }
 
-        .titulos {
-            text-align: center;
-            padding-top: 6%;
-            margin-top: 5%;
-            margin-bottom: 5%;
-        }
+    .carousel-inner {
 
-        .parrafos{
-            text-align: center;
-            margin-left: 20%;
-            margin-right: 20%;
-            margin-top: 5%;
-            margin-bottom: 5%;
-        }
- /*----------------------- main------------------------ */
+        border-radius: 15px;
+        height: 400px;
+        width: 700px;
+        margin: auto;
+    }
 
+    /*------------- componentes del carrusel ----------- */
 
- /* ----------------footer -------------------*/
+    .titulos {
+        text-align: center;
+        padding-top: 6%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
 
-        .footerindex{
-            background-color: black;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            height: auto;
-            color: white;
-            margin: auto;
-            padding: 3px;
-        }
+    .parrafos {
+        text-align: justify;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
 
-        .pfooter {
-            color: azure;
-            text-align: center;
-            height: 20px;
-            
-        }
+    /*----------------------- main------------------------ */
 
 
-/* ----------------footer -------------------*/
+    /* ----------------footer -------------------*/
+
+    .footerindex {
+        background-color: black;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+        color: white;
+        margin: auto;
+        padding: 3px;
+    }
+
+    .pfooter {
+        color: azure;
+        text-align: center;
+        height: 20px;
+
+    }
 
 
-
-
-                /* ---------------------------------------- Contacto ----------------------------------------------------------- */
+    /* ----------------footer -------------------*/
 
 
 
 
-
-                /* ---------------------------------------- Contacto ----------------------------------------------------------- */
-
-
-
-                /* ------------------------------------------------------- Login ----------------------------------------------- */
-
-
-                        .formulariologin{
-                            width: 30%;
-                            height: 100%;
-                            margin-left: auto;
-                            margin-right: auto;
-                            margin-top: 5%;
-                            margin-bottom: 5%;
-                            border-style:solid;
-                            border-color: black;
-                            border-radius: 15px;
-                            text-align: center;
-                            padding:50px;
-                            background-color:azure;                            
-                        }
-
-                        .botonlogin{
-                            padding-top: 5%;
-                            margin-left: 20%;
-                            margin-right: 30%;
-                            margin-bottom: 5%;
-                        }
+    /* ---------------------------------------- Contacto ----------------------------------------------------------- */
 
 
 
 
 
+    /* ---------------------------------------- Contacto ----------------------------------------------------------- */
+
+
+
+    /* ------------------------------------------------------- Login ----------------------------------------------- */
+
+
+    .formulariologin {
+        width: 30%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        border-style: solid;
+        border-color: black;
+        border-radius: 15px;
+        text-align: center;
+        padding: 50px;
+        background-color: azure;
+    }
+
+    .botonlogin {
+        padding-top: 5%;
+        margin-left: 20%;
+        margin-right: 30%;
+        margin-bottom: 5%;
+    }
 
 
 
@@ -174,5 +187,10 @@
 
 
 
-    
-                /* ------------------------------------------------------- Login ----------------------------------------------- */
+
+
+
+
+
+
+    /* ------------------------------------------------------- Login ----------------------------------------------- */
