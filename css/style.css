@@ -56,7 +56,26 @@
             border: 1px solid azure;
         }
 
+        .img-user-log{
+            width: 100px;
+            height: 100px;
+            margin-left: 36%;
+            
+        }
 
+        .p-user-log{
+            text-align: center;
+            margin-top: 5px;
+        }
+
+        .datos-log{
+            padding-top:30px;
+        }
+
+        #boton-cerrar-sesion{
+            margin-left: 43%;
+            
+        }
 
     /* --------------------body -----------------------*/
 
