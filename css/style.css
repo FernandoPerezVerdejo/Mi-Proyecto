@@ -60,7 +60,7 @@
 
     /* --------------------body -----------------------*/
 
-    .cuerpo-pagina {
+    .cuerpo-pagina-index {
         background: linear-gradient(45deg, rgb(234, 234, 255) 50%, rgb(95, 95, 238) 80%);
 
     }
@@ -159,26 +159,32 @@
     /* ------------------------------------------------------- Login ----------------------------------------------- */
 
 
+
+    .cuerpo-pagina-login{
+        background: linear-gradient(45deg, rgba(234, 234, 255, 0) 50%, rgb(95, 95, 238) 80%);
+        height: 600px;
+    }
+
+
+
     .formulariologin {
-        width: 30%;
-        height: 100%;
+        width: 350px;
+        height: 250px;
         margin-left: auto;
         margin-right: auto;
         margin-top: 5%;
         margin-bottom: 5%;
         border-style: solid;
-        border-color: black;
         border-radius: 15px;
         text-align: center;
-        padding: 50px;
-        background-color: azure;
+        padding: 30px;
+        background-color: rgba(86, 118, 221, 0.534);
     }
 
     .botonlogin {
-        padding-top: 5%;
-        margin-left: 20%;
-        margin-right: 30%;
-        margin-bottom: 5%;
+        width: 285px;
+        padding-right: 30px;  
+        padding-top: 10px; 
     }
 
 
