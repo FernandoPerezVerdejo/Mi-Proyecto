@@ -47,6 +47,8 @@
         width: 80px;
         height: 80px;
         margin-top: 10%;
+        /* position: fixed;
+        z-index: 100; */
         margin-left: auto;
 
     }
@@ -55,6 +57,9 @@
         background-color: rgba(239, 243, 238, 0.452);
         border-radius: 25% 0 0 25%;
         border: 1px solid azure;
+        position: fixed;
+        width: auto;
+        
     }
 
     .img-user-log {
@@ -92,7 +97,7 @@
 
 
     .proyector-index {
-        padding-top: 10%;
+        
     }
 
     /* -----------------------body -----------------------*/
@@ -108,18 +113,23 @@
 
     .carrusel-contenedor {
 
-        border-style: solid;
+        
         margin-left: 20%;
         margin-right: 20%;
+        border-radius: 10px;
 
     }
 
-    .carousel-inner {}
+    .carousel-inner {
+        border-radius: 10px;
+    }
 
     .carousel-item {}
 
 
-    #img-carrusel {}
+    #img-carrusel {
+        border-radius: 10px;
+    }
 
     /*------------- componentes del carrusel ----------- */
 
