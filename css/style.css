@@ -41,41 +41,42 @@
 
     /*-------------------- header -----------------*/
 
-                        /* menu derecha fijo */
+    /* menu derecha fijo */
 
-        .menu-derecho-fijo{
-            width: 80px;
-            height: 80px;
-            margin-top: 10%;
-            margin-left: auto;
+    .menu-derecho-fijo {
+        width: 80px;
+        height: 80px;
+        margin-top: 10%;
+        margin-left: auto;
 
-        }
-        .boton-menu-derecha{
-            background-color: rgba(239, 243, 238, 0.452);
-            border-radius: 25% 0 0 25%;
-            border: 1px solid azure;
-        }
+    }
 
-        .img-user-log{
-            width: 100px;
-            height: 100px;
-            margin-left: 36%;
-            
-        }
+    .boton-menu-derecha {
+        background-color: rgba(239, 243, 238, 0.452);
+        border-radius: 25% 0 0 25%;
+        border: 1px solid azure;
+    }
 
-        .p-user-log{
-            text-align: center;
-            margin-top: 5px;
-        }
+    .img-user-log {
+        width: 100px;
+        height: 100px;
+        margin-left: 36%;
 
-        .datos-log{
-            padding-top:30px;
-        }
+    }
 
-        #boton-cerrar-sesion{
-            margin-left: 43%;
-            
-        }
+    .p-user-log {
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .datos-log {
+        padding-top: 30px;
+    }
+
+    #boton-cerrar-sesion {
+        margin-left: 43%;
+
+    }
 
     /* --------------------body -----------------------*/
 
@@ -99,24 +100,14 @@
 
 
     /*------------- componentes del carrusel ----------- */
-    .carrusel {
-        height: 400px;
-        width: 700px;
-        margin: auto;
 
-    }
+    .carrusel-contenedor {
 
-    .imgcarrusel {
-        height: 400px;
-        width: 700px;
-    }
+       border-style: solid;
+       margin-left: 20%;
+       margin-right: 20%;
+       
 
-    .carousel-inner {
-
-        border-radius: 15px;
-        height: 400px;
-        width: 700px;
-        margin: auto;
     }
 
     /*------------- componentes del carrusel ----------- */
@@ -179,7 +170,7 @@
 
 
 
-    .cuerpo-pagina-login{
+    .cuerpo-pagina-login {
         background: linear-gradient(45deg, rgba(234, 234, 255, 0) 50%, rgb(95, 95, 238) 80%);
         height: 600px;
     }
@@ -202,8 +193,8 @@
 
     .botonlogin {
         width: 285px;
-        padding-right: 30px;  
-        padding-top: 10px; 
+        padding-right: 30px;
+        padding-top: 10px;
     }
 
 
