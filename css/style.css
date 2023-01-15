@@ -30,14 +30,6 @@
         padding-bottom: 1%;
     }
 
-    .radio {
-        position: fixed;
-        top: 5px;
-        right: 100px;
-        text-align: center;
-
-
-    }
 
     /*-------------------- header -----------------*/
 
@@ -82,6 +74,7 @@
 
     #boton-cerrar-sesion {
         margin-left: 43%;
+        /* display: none;       desaparecer el boton  */
 
     }
 
@@ -177,7 +170,24 @@
 
     /* ---------------------------------------- Contacto ----------------------------------------------------------- */
 
+        .cuerpo-pagina-contacto{
+            background: linear-gradient(45deg, rgba(234, 234, 255, 0) 50%, rgb(95, 95, 238) 80%);
+            height: 750px;
+        }
 
+        .proyector-contacto{
+        }
+
+
+        .formulario-contacto{
+            border-style: solid;
+            border-color: blue;
+            border-radius: 10px;
+            margin-left: 30%;
+            margin-right: 30%;
+            margin-top: 10%;
+            padding: 1%;
+        }
 
 
 
@@ -191,7 +201,7 @@
 
     .cuerpo-pagina-login {
         background: linear-gradient(45deg, rgba(234, 234, 255, 0) 50%, rgb(95, 95, 238) 80%);
-        height: 600px;
+        height: 750px;
     }
 
 
