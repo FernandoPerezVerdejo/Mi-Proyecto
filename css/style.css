@@ -39,6 +39,7 @@
         width: 80px;
         height: 80px;
         margin-left: auto;
+        
 
     }
 
@@ -48,6 +49,7 @@
         border: 1px solid azure;
         position: fixed;
         bottom: 50%;
+        z-index: 100;
         
     }
 
@@ -104,8 +106,8 @@
     .carrusel-contenedor {
 
         
-        margin-left: 20%;
-        margin-right: 20%;
+            margin-left: 20%;
+            margin-right: 20%;
         border-radius: 10px;
 
     }
@@ -120,6 +122,7 @@
     #img-carrusel {
         border-radius: 10px;
     }
+
 
     /*------------- componentes del carrusel ----------- */
 
@@ -176,7 +179,8 @@
         }
 
         .proyector-contacto{
-            
+            display: flex;
+            justify-content: center;
         }
 
 
@@ -184,14 +188,23 @@
             border-style: solid;
             border-color: blue;
             border-radius: 10px;
-            margin-left: 30%;
-            margin-right: 30%;
-            margin-top: 10%;
+            /* margin-left: 30%;
+            margin-right: 30%; */
+            /* margin-top: 10%; */
             padding: 2%;
             background-color: rgba(222, 235, 220, 0.842); 
+            min-width: 200px;
+            width: 500px;
+            margin: 10% 10px 0 10px;
+
         }
 
 
+        .boton-enviar-contacto{
+            text-align: center;
+            margin-right: 10%;
+
+        }
 
     /* ---------------------------------------- Contacto ----------------------------------------------------------- */
 
