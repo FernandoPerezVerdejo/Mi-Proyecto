@@ -185,8 +185,8 @@
 
 
         .formulario-contacto{
-            border-style: solid;
-            border-color: blue;
+            border-style:groove;
+            border-color: black;
             border-radius: 10px;
             /* margin-left: 30%;
             margin-right: 30%; */
