@@ -9,6 +9,7 @@ function login(){
         alert('Login exitoso');
         switch_login=true;
         location.reload();
+        login1();
     }else{
         alert('Usuario o contraseña incorrectos')
     }
