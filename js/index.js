@@ -1,4 +1,4 @@
-var base_login = [ {usuario:"Admin", contraseña:"1234"} , {usuario:"user",contraseña:"1234"}]
+var base_login = [ {usuario:"admin", contraseña:"1234"} , {usuario:"user",contraseña:"1234"}]
 var switch_login=false;
 
 function login(){
